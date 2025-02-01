@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4db84b7e-bfda-49b5-a979-3ba0e81ab8f1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CasCap.Api.GooglePhotos" Version="3.1.0" />
+    <PackageReference Include="Google.Apis.Discovery.v1" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3627" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+</Project>
